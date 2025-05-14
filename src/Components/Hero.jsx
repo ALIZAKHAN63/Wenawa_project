@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaRegHandPaper } from 'react-icons/fa';
 import { FaPlay } from 'react-icons/fa';
+import LogoMarquee from './LogoMarquee';
 
 const Hero = () => {
   return (
@@ -48,5 +49,9 @@ const Hero = () => {
     </section>
   );
 };
+
+ <div>
+      <LogoMarquee />
+    </div>
 
 export default Hero;
