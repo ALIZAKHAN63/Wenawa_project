@@ -1,0 +1,32 @@
+.logo-marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: #f0f9ff;
+  padding: 20px 0;
+}
+
+.logo-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-x 20s linear infinite;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  padding: 0 20px;
+}
+
+.logo-item img {
+  height: 70px;
+  object-fit: contain;
+}
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+

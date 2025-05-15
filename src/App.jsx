@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header';
 import Hero from './Components/Hero';
-import LogoMarquee from './Components/LogoMarquee';
+import WhyChooseUs from './Components/WhyChooseUs';
+
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
-      <LogoMarquee />
+      <WhyChooseUs />
+      
     </>
   );
 }

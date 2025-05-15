@@ -43,15 +43,18 @@ const Hero = () => {
   </div>
   <span className="text-blue-900 font-medium">Play Video</span>
 </div>
+ </div>
 
-        </div>
+   <div className="mt-12">
+            <LogoMarquee />
+             </div>
       </div>
     </section>
+
+            
+
+    
   );
 };
-
- <div>
-      <LogoMarquee />
-    </div>
 
 export default Hero;
