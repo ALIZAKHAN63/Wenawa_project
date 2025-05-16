@@ -5,6 +5,10 @@ import './App.css'
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import WhyChooseUs from './Components/WhyChooseUs';
+import OurServices from './Components/OurService'
+import StatsSection from './Components/Stats'
+import SuccessCases from './Components/SuccessCase';
+import TechnologyPartners from './Components/TechPartners';
 
 
 function App() {
@@ -13,7 +17,10 @@ function App() {
       <Header />
       <Hero />
       <WhyChooseUs />
-      
+      <OurServices />
+      <StatsSection />
+      <SuccessCases />
+      <TechnologyPartners />
     </>
   );
 }
