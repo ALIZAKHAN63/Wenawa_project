@@ -3,22 +3,18 @@ import React from "react";
 const partners = [
   {
     title: "Codener is Google Developer Certified Agency",
-    subtitle: "Google developer certified agency",
     image: "tech1.png",
   },
   {
     title: "Adobe Solution Partner Program",
-    subtitle: "",
     image: "tech2.png",
   },
   {
     title: "Codener is Microsoft Certified Consulting Partner",
-    subtitle: "Microsoft certified consulting partner",
     image: "tech3.png",
   },
   {
     title: "Codener is Shopify Certified Partner",
-    subtitle: "Shopify certified partner",
     image: "tech4.png",
   },
 ];

@@ -9,6 +9,12 @@ import OurServices from './Components/OurService'
 import StatsSection from './Components/Stats'
 import SuccessCases from './Components/SuccessCase';
 import TechnologyPartners from './Components/TechPartners';
+import ShopifySection from './Components/ShopifySection';
+import TestimonialSection from './Components/testimonials'
+import FeaturedTestimonial from './Components/FeaturedTestimonial'
+import CodenerBlogs from './Components/CodenerBlogs'
+import FAQSection from './Components/FAQSection'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -21,6 +27,12 @@ function App() {
       <StatsSection />
       <SuccessCases />
       <TechnologyPartners />
+      <ShopifySection />
+      <TestimonialSection />
+      <FeaturedTestimonial />
+      <CodenerBlogs />
+      <FAQSection />
+      <Footer />
     </>
   );
 }
